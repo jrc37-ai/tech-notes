@@ -1,6 +1,9 @@
-## FLASK
+# FLASK
 
-### pip install flask
+### Flask installation
+```
+pip install flask
+```
 
 ### Minimal application
 ```
