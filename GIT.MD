@@ -1,4 +1,4 @@
-## GIT
+# GIT
 
 ### Install git from https://git-scm.com/
 
