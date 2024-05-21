@@ -20,3 +20,8 @@ git init
 git config --global user.email <email>
 git config --global user.name <name>
 ```
+
+### Conecting to a specific repository in github
+```
+git remote add origin <Github repository URL>
+```
