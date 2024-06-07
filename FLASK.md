@@ -17,3 +17,8 @@ def hello_world():
 ```
 
 ### Run the app.py to initialize it on the Flask server 
+
+### MySQL module for Flask installation
+```
+pip install flask flask_mysqldb
+```
