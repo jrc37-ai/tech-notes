@@ -53,7 +53,7 @@ create table PERSON(
   );
 ```
 
-Example 2, with an auot increment starting on 100:
+Example 2, with an auto increment starting on 100:
 ```
 create table PERSON(
   ID INT (10) PRIMARY KEY AUTO_INCREMENT,
