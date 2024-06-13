@@ -44,7 +44,38 @@ git add .
 git commit -m "COMMENTARY"
 ```
 
+### Commit with automatic staging of the files
+```
+git commit -a -m "COMMENTARY"
+```
+
 ### Upload the changes to the GitHub repository
 ```
 git push origin main
+```
+
+### Create a new branch and switch to it
+```
+git checkout -b BRANCH_NAME
+```
+Unfolded way to do this:
+```
+git branch BRANCH_NAME
+git checkout BRANCH_NAME
+```
+
+### Merge a branch into master branch
+```
+git checkout master
+git merge BRANCH_NAME
+```
+
+### Delete a branch
+```
+git branch -d BRANCH_NAME
+```
+
+### See all local and remote branches
+```
+git branch -a
 ```
