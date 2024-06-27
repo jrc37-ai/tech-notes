@@ -39,7 +39,7 @@ git rm --cached -r FOLDERNAME
 git add .
 ```
 
-### Commit all the changes
+### Commit all changes
 ```
 git commit -m "COMMENTARY"
 ```
@@ -47,6 +47,15 @@ git commit -m "COMMENTARY"
 ### Commit with automatic staging of the files
 ```
 git commit -a -m "COMMENTARY"
+```
+
+### Add changes to the last commit 
+```
+git commit --amend
+```
+### Modify comment of the last commit 
+```
+git commit --amend -m "Updated commit message"
 ```
 
 ### Upload the changes to the GitHub repository
