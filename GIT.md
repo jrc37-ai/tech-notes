@@ -50,6 +50,7 @@ git commit -a -m "COMMENTARY"
 ```
 
 ### Add changes to the last commit 
+**Not recommendable when syncing with a remote repository like GitHub.
 ```
 git commit --amend
 ```
