@@ -54,6 +54,11 @@ git commit -a -m "COMMENTARY"
 git push origin main
 ```
 
+### Set `main` as the main branch instead of `master`
+```
+git branch -M main
+```
+
 ### Stop tracking a file
 #### First of all, it's neccesary to stop tracking a file, in order for it to disappear from the repository, even when that file is already included in the .gitignore file.
 ```
