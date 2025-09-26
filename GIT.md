@@ -18,20 +18,20 @@ git config --global user.email <email>
 git config --global user.name <name>
 ```
 
+### Check if local folder is empty about remote tracking
+#### Inf nothing appears, we can add the remote repository
+```
+git remote -v
+```
+
 ### Conecting to a specific repository in github
 ```
 git remote add origin <Github repository URL>
 ```
 
-### Stop tracking a file
-#### First of all, it's neccesary to stop tracking a file, in order for it to disappear from the repository, even when that file is already included in the .gitignore file.
+### In case that the Github repository has already a `.gitignore` file
 ```
-git rm --cached FILENAME
-```
-
-### Stop tracking a folder
-```
-git rm --cached -r FOLDERNAME
+git pull origin main
 ```
 
 ### Stage all the changes 
@@ -47,6 +47,17 @@ git commit -m "COMMENTARY"
 ### Commit with automatic staging of the files
 ```
 git commit -a -m "COMMENTARY"
+```
+
+### Stop tracking a file
+#### First of all, it's neccesary to stop tracking a file, in order for it to disappear from the repository, even when that file is already included in the .gitignore file.
+```
+git rm --cached FILENAME
+```
+
+### Stop tracking a folder
+```
+git rm --cached -r FOLDERNAME
 ```
 
 ### Add changes to the last commit 
