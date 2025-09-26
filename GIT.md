@@ -49,6 +49,11 @@ git commit -m "COMMENTARY"
 git commit -a -m "COMMENTARY"
 ```
 
+### Upload the changes to the GitHub repository
+```
+git push origin main
+```
+
 ### Stop tracking a file
 #### First of all, it's neccesary to stop tracking a file, in order for it to disappear from the repository, even when that file is already included in the .gitignore file.
 ```
@@ -68,11 +73,6 @@ git commit --amend
 ### Modify comment of the last commit 
 ```
 git commit --amend -m "Updated commit message"
-```
-
-### Upload the changes to the GitHub repository
-```
-git push origin main
 ```
 
 ### Create a new branch and switch to it
