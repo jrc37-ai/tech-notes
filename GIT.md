@@ -105,3 +105,32 @@ git branch -d BRANCH_NAME
 ```
 git branch -a
 ```
+
+### PROCEDURE FOR A CLEAN PROJECT CREATION WORKFLOW
+#### Make sure you are inside the working folder
+```
+git init
+
+echo "__pycache__/
+.venv/
+env/
+*.pyc
+.DS_Store
+" > .gitignore
+
+git add .
+git commit -m "First commit"
+
+git remote add origin <Github repository URL>
+
+git branch -M main     # rename the main branch in case it remains as 'master'
+git push -u origin main
+
+git remote -v
+git status
+```
+
+
+
+
+
